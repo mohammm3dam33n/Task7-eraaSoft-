@@ -1,0 +1,6 @@
+Search about get and post in php ( documented )?
+
+
+The key difference Between GET and POST method in PHP is that GET method sends the information by appending them to the page request
+while POST method sends information via HTTP header. ...
+The GET and POST methods are two ways of a client computer to send information to the web server.

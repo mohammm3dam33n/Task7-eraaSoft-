@@ -54,17 +54,19 @@ echo "<hr>";
 <?php 
 // -	Write a function that take a parameter and check if this     
 // parameter is prime or not  - not recommended 
-
 function checkTheNumber($num){
-for ($i = 2; $i < $num; $i++){
-    if ($num % $i == 0) {
-        echo 'NOT prime';
-        break;
-    }               
-}
-echo  "$num Is Prime";    
+  for ($i = 2; $i < $num; $i++){
+      if ($num % $i == 0) {
+          echo "$num NOT prime";
+          break;
+      }else{
+        echo  "$num Is Prime";
+        break;    
+      }              
+  }
+  }
+  checkTheNumber(13);
 
-}
-checkTheNumber(13);
+
 ?>
 
